@@ -3,9 +3,9 @@ Tagify ExpressionEngine (EE) Plugin
 
 Do some fancy find/replace magic stuff in your entry fields. Originally written to convert "pseudotags" to real EE tags, this plugin can convert anything within square brackets to anything else.
 
-To use tagify with a given field, wrap the filed in `{exp:tagify}{/exp:tagify}` tags.
+To use tagify with a given field, wrap the field in `{exp:tagify}{/exp:tagify}` tags.
 
-If you only want to limit the types of pseudotags that get converted, pass them in a pipe-delimited tag_name param like so: `{exp:tagify tag_name="append|current_uri"}{body}{/exp:tagify}` or `{exp:tagify tag_name="current_uri"}{some_custom_field}{/exp:tagify}`.
+If you want to limit the types of pseudotags that get converted, pass them in a pipe-delimited tag_name param like so: `{exp:tagify tag_name="append|current_uri"}{body}{/exp:tagify}` or `{exp:tagify tag_name="current_uri"}{some_custom_field}{/exp:tagify}`.
 
 Standard Methods
 ----------------
